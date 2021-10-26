@@ -18,13 +18,13 @@ class AddThread(threading.Thread):
         self.dao.add(self.bee)
         print("Exiting " + self.name)
 
-#must be put into a suitable module for player interaction
-bee1 = bee.Bee('NYTbee', (pangrams.getChosenWord()))
+# testing game play
+bee1 = bee.NYTBee('NYTbee', (pangrams.getChosenWord()))
 
 print(validateWord.validateWord(bee1.chosenWord))
 
-thread1 = AddThread(1, "Thread1", bee1)
+#thread1 = AddThread(1, "Thread1", bee1)
 
-thread1.start()
+#thread1.start()
 
 print("Exiting main thread")

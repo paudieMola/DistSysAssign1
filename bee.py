@@ -1,6 +1,6 @@
 
 #gametype can be expanded for other word games
-class Bee:
+class NYTBee:
     def __init__(self, gametype, chosenWord):
         self.gametype = gametype
         self.chosenWord = chosenWord
