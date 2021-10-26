@@ -1,6 +1,7 @@
 from dao import spelling_bee_dao
 import bee
 from Pangrams import pangrams
+from ProcessWord import validateWord
 
 import threading
 
@@ -19,6 +20,9 @@ class AddThread(threading.Thread):
 
 #must be put into a suitable module for player interaction
 bee1 = bee.Bee('NYTbee', (pangrams.getChosenWord()))
+
+print(validateWord.validateWord(bee1.chosenWord))
+
 thread1 = AddThread(1, "Thread1", bee1)
 
 thread1.start()
