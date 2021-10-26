@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6f5de5d-fc07-4736-a105-10d4b717aff8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ProcessWord/scoreWord.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProcessWord/validateWord.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/R00142752_Assign1_HelenDaly.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/R00142752_Assign1_HelenDaly.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="f6f5de5d-fc07-4736-a105-10d4b717aff8" name="Changes" comment="Validation and Score methods created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pangrams" beforeDir="false" afterPath="$PROJECT_DIR$/Pangrams" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pangrams/pangrams.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pangrams/pangrams.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamesdb.json" beforeDir="false" afterPath="$PROJECT_DIR$/gamesdb.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +133,14 @@
       <option name="presentableId" value="Default" />
       <updated>1633940991741</updated>
     </task>
+    <task id="LOCAL-00001" summary="Validation and Score methods created">
+      <created>1635243295993</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635243295993</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,5 +154,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Validation and Score methods created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Validation and Score methods created" />
   </component>
 </project>
