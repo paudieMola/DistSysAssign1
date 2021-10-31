@@ -5,4 +5,5 @@ def startingUI():
     return start.lower()
 
 def runningUI():
-    print("Enter word : ")
+    guess = input("Enter word : ")
+    return guess

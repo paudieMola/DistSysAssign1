@@ -1,7 +1,7 @@
 from dao import spelling_bee_dao
 import bee
 from Pangrams import pangrams
-from ProcessWord import validateWord
+from processWord import validateWord
 
 import threading
 
