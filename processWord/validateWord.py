@@ -1,6 +1,7 @@
 from Pangrams import pangrams
 import json
 
+#These have been replaced with methods in the gameManager class
 wordScore = 0
 
 def validateWord(wordIn):

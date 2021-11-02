@@ -1,14 +1,10 @@
 
 #gametype can be expanded for other word games
-class NYTBee:
-    def __init__(self, gametype, chosenWord):
-        self.gametype = gametype
-        self.chosenWord = chosenWord
-        self.players = []
+class nytBee:
+    def __init__(self):
+        self.scores = []
         self.totalScore = 0
-        self.submittedWords = []
-        #just for debug take out when game is working
-        print(chosenWord)
+        self.validWords = []
 
     #placeholder for when more developed
     def register_player(self, userName):

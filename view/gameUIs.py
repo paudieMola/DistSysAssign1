@@ -1,9 +1,12 @@
 
 def startingUI():
-    start = input("Start New York Times Spelling Bee? y/n")
+    start = (input("Start New York Times Spelling Bee? y/n")).lower
     print("To stop game type 'exitgame'")
-    return start.lower()
+    if start == "y":
+        runningUI()
+    else:
+        exit()
 
 def runningUI():
-    guess = input("Enter word : ")
+    guess = (input("Enter word (type 'exitgame' to stop) : ")).lower
     return guess

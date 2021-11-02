@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6f5de5d-fc07-4736-a105-10d4b717aff8" name="Changes" comment="Validation and Score methods created">
-      <change afterPath="$PROJECT_DIR$/create_Objects/object_factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/processWord/scoreWord.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="f6f5de5d-fc07-4736-a105-10d4b717aff8" name="Changes" comment="Object factory and game template mostly created">
+      <change afterPath="$PROJECT_DIR$/controller/nytBee.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessWord/scoreWord.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/game_controller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessWord/validateWord.py" beforeDir="false" afterPath="$PROJECT_DIR$/processWord/validateWord.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/View/gameUIs.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/gameUIs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bee.py" beforeDir="false" afterPath="$PROJECT_DIR$/bee.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/game_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller/game_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/spelling_bee_dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/dao/spelling_bee_dao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processWord/scoreWord.py" beforeDir="false" afterPath="$PROJECT_DIR$/processWord/scoreWord.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processWord/validateWord.py" beforeDir="false" afterPath="$PROJECT_DIR$/processWord/validateWord.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/gameUIs.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/gameUIs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DistSysDartsMatch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="ReaderModeSettings">
@@ -162,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635273361016</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Object factory and game template mostly created">
+      <created>1635698982456</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635698982456</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,15 +190,51 @@
       <path value="$PROJECT_DIR$/Pangrams" />
     </ignored-roots>
     <MESSAGE value="Validation and Score methods created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Validation and Score methods created" />
+    <MESSAGE value="Object factory and game template mostly created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Object factory and game template mostly created" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/controller/game_controller.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/controller/nytBee.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/controller/nytBee.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/controller/nytBee.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bee.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="1" />
+          <line>21</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bee.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dao/spelling_bee_dao.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -27,21 +27,21 @@ class SpellingBeeDao:
             raise Exception("This is a singleton")
         else:
             SpellingBeeDao.__instance = self
-        self.db = TinyDB('gamesdb.json')
-        self.lock = threading.Lock()
-        self.rand = random.random()
+#        self.db = TinyDB('gamesdb.json')
+#        self.lock = threading.Lock()
+ #       self.rand = random.random()
 
-    def add(self, bee):
-        self.lock.acquire()
+#    def add(self, bee):
+#        self.lock.acquire()
 
         # just to simulate game operation
-        time.sleep(3)
+#        time.sleep(3)
 
         # beeQuery = Query() Maybe dont need if I'm not checking a condition
         # I'm not going to check a condition - just insert this game into the gamesdb
         # if not self.db.contains(Bee.chosenWord == bee.chosenWord):
-        self.db.insert({'gameType': bee.gametype, 'chosenWord': bee.chosenWord})
+        #self.db.insert({'gameType': bee.gametype, 'chosenWord': bee.chosenWord})
 
-        print('Insert attempted for '+bee.chosenWord+'  ' + str(self.rand))
+        #print('Insert attempted for '+bee.chosenWord+'  ' + str(self.rand))
 
-        self.lock.release()
+#        self.lock.release()
